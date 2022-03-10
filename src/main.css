@@ -1,0 +1,28 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&family=Raleway:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    text-align: right;
+    justify-content: right;
+    font-weight: 500;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+.list-style {
+    font-style: italic;
+}
+
+title {
+    font-weight: 900;
+}
