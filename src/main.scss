@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&family=Raleway:wght@200&family=Roboto:wght@100&display=swap');
+
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    justify-content: left;
+    font-weight: 500;
+    margin-right: 200px;
+    position: absolute;
+    padding: 0 90px 0 90px;
+    margin-left: 550px;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+.list-style {
+    font-style: italic;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+.proficient {
+    background-image: linear-gradient(to right, rgb(153, 51, 255,0), rgb(153, 51, 255, 1));
+}
+
+.learning {
+    background-image: linear-gradient(to right, rgb(51, 255, 130, 0), rgb(51, 255, 130, 1));
+}
+
+.experienced {
+    background-image: linear-gradient(to right, rgb(51, 213, 255, 0), rgb(51, 213, 255, 1));
+}

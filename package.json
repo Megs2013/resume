@@ -4,13 +4,19 @@
   "description": "Meghan Cook's resume",
   "main": "index.js",
   "scripts": {
-    "serve": "npx http-server ./src"
+    "build": "npx gulp build",
+    "watch": "npx gulp watch",
+    "serve": "npx live-server ./dist --watch=./dist"
   },
   "repository": "https://github.com/Megs2013/resume.git",
   "author": "Meghan Cook <megs2013@hotmail.com>",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "live-server": "^1.2.1",
+    "sass": "^1.49.9"
   }
 }
